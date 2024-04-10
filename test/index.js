@@ -162,10 +162,10 @@ ACC_LIMIT: ${accLimit}
 // create the session
 
 new Session({
-	hostName: process.env.HOSTNAME || "FriendConnect",
-	worldName: process.env.WORLD_NAME || "Message of the Day: Hello World",
+	hostName: process.env.HOSTNAME || "Astra Test",
+	worldName: process.env.WORLD_NAME || "Testing out hosting",
 
-	version: process.env.VERSION || "Version",
+	version: process.env.VERSION || "1.20.71",
 	protocol,
 	connectedPlayers,
 	maxConnectedPlayers,
